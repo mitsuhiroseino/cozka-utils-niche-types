@@ -1,0 +1,1 @@
+# gusok-ts-types
