@@ -1,4 +1,4 @@
-# @gusok/utils-niche-types
+# @cozka/utils-niche-types
 
 **[日本語の README はこちら](./README.ja.md)**
 
@@ -7,7 +7,7 @@ A library that collects niche TypeScript type definitions.
 ## Installation
 
 ```sh
-npm install @gusok/utils-niche-types
+npm install @cozka/utils-niche-types
 ```
 
 ## Usage

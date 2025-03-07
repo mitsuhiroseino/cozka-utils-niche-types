@@ -1,6 +1,6 @@
 {
-  "name": "@gusok/utils-niche-types",
-  "version": "0.1.0",
+  "name": "@cozka/utils-niche-types",
+  "version": "0.2.0",
   "keywords": [
     "typescript"
   ],
@@ -22,8 +22,8 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.26.3",
     "@babel/preset-typescript": "^7.21.4",
+    "@cozka/rollup-create-dist-packagejson": "^0.7.0",
     "@eslint/js": "^9.3.0",
-    "@gusok/rollup-create-dist-packagejson": "^0.6.4",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.2",

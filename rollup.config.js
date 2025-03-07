@@ -1,4 +1,4 @@
-import packagejson from '@gusok/rollup-create-dist-packagejson';
+import packagejson from '@cozka/rollup-create-dist-packagejson';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import copy from 'rollup-plugin-copy';

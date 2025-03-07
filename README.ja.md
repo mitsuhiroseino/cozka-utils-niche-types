@@ -1,4 +1,4 @@
-# @gusok/utils-niche-types
+# @cozka/utils-niche-types
 
 **[English README is available here](./README.md)**
 
@@ -7,7 +7,7 @@ TypeScript のニッチな型定義を集めたライブラリです。
 ## インストール
 
 ```sh
-npm install @gusok/utils-niche-types
+npm install @cozka/utils-niche-types
 ```
 
 ## 使い方
