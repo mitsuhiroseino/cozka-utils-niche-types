@@ -1,9 +1,13 @@
 {
   "name": "@cozka/utils-niche-types",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitsuhiroseino/cozka-utils-niche-types.git"
+  },
   "license": "MIT",
   "author": "Mitsuhiro Seino",
   "type": "module",

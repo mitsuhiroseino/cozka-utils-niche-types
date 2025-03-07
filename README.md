@@ -1,8 +1,8 @@
 # @cozka/utils-niche-types
 
-**[日本語の README はこちら](./README.ja.md)**
-
 A library that collects niche TypeScript type definitions.
+
+**[日本語の README はこちら](./README.ja.md)**
 
 ## Installation
 

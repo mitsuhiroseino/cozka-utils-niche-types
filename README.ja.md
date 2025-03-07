@@ -1,8 +1,8 @@
 # @cozka/utils-niche-types
 
-**[English README is available here](./README.md)**
-
 TypeScript のニッチな型定義を集めたライブラリです。
+
+**[English README is available here](./README.md)**
 
 ## インストール
 
