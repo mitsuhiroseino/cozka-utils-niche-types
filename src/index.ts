@@ -1,4 +1,17 @@
 /**
+ * typeofの結果の型
+ */
+export type TypeOfResult =
+  | 'undefined'
+  | 'object'
+  | 'boolean'
+  | 'number'
+  | 'bigint'
+  | 'string'
+  | 'symbol'
+  | 'function';
+
+/**
  * 指定のプロパティにキャメルケースでプレフィックスを付与する
  * @template PREFIX プロパティに付与するプレフィックス
  * @template RECORD プロパティを持つレコード
