@@ -4,7 +4,11 @@ import typescript from '@rollup/plugin-typescript';
 import copy from 'rollup-plugin-copy';
 
 // node_modules配下のdependenciesはバンドルしない。下記の正規表現の指定をするためには'@rollup/plugin-node-resolve'が必要
-const EXTERNAL = [/[\\/]node_modules[\\/]/, /[\\/]dist[\\/]/];
+const EXTERNAL = [
+  /[\\/]node_modules[\\/]/,
+  /[\\/]dist[\\/]/,
+  /[\\/]cozka-(?!utils-niche-types).*[\\/]/,
+];
 
 // esmodule用とcommonjs用のソースを出力する
 const options = {
@@ -17,7 +21,9 @@ const options = {
   external: EXTERNAL,
   treeshake: false,
   plugins: [
-    nodeResolve(),
+    nodeResolve({
+      extensions: EXTENTIONS,
+    }),
     typescript({
       filterRoot: 'src',
       tsconfig: 'tsconfig.json',
@@ -30,7 +36,7 @@ const options = {
     packagejson({
       content: {
         main: 'index.d.ts',
-        types: 'index.d.ts',
+        types: './index.d.ts',
         files: ['**/*'],
       },
     }),
